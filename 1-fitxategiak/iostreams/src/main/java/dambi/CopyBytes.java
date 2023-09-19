@@ -19,13 +19,20 @@ public class CopyBytes{
             while ((c = in.read()) != -1){
                 out.write(c);
             }
+        } catch (IOException e){
+            System.out.println("There was an error in the IOStream: " + e.getMessage());
         } finally{
+            try{
             if(in != null){
                 in.close();
             }
             if(out != null){
                 out.close();
             }
+        } catch(IOException e){
+            System.out.println("There was an error in the IOStream: " + e.getMessage());
         }
+        }
+        
     }
 }
