@@ -33,7 +33,6 @@ public class MainMenua {
                 switch (Integer.valueOf(auk)) {
                     case 1:
 
-
                         try {
                             BufferedReader reader = new BufferedReader(new FileReader("Mendiak.csv"));
                             System.out.printf("%12s | %8s | %s%n", "MENDIA", "ALTUERA", "PROBINTZIA");
@@ -49,7 +48,6 @@ public class MainMenua {
                         }
                         break;
 
-
                     case 2:
                         try {
                             String[] mendiAltuena = new String[3];
@@ -57,7 +55,7 @@ public class MainMenua {
                             while (reader.readLine() != null) {
                                 String[] mendia = reader.readLine().split(";");
                                 mendiAltuena = mendia;
-                                if(Integer.parseInt(mendiAltuena[1]) < Integer.parseInt(mendia[1])){
+                                if (Integer.parseInt(mendiAltuena[1]) < Integer.parseInt(mendia[1])) {
                                     mendiAltuena = mendia;
                                 }
                             }
@@ -67,11 +65,10 @@ public class MainMenua {
                         } catch (IOException eio) {
                             System.out.println("Errore bat egon da: " + eio.getMessage());
                         }
-                    break;
-
+                        break;
 
                     case 3:
-                        try{
+                        try {
                             BufferedReader reader = new BufferedReader(new FileReader("Mendiak.csv"));
 
                             File bizkaiaCsv = new File("bizkaia.csv");
@@ -85,7 +82,7 @@ public class MainMenua {
 
                             File nafarroaCsv = new File("nafarroa.csv");
                             nafarroaCsv.createNewFile();
-                            
+
                             FileWriter fwBizkaia = new FileWriter(bizkaiaCsv, false);
                             BufferedWriter writerBiz = new BufferedWriter(fwBizkaia);
                             writerBiz.write("MENDIA;ALTUERA\n");
@@ -106,16 +103,13 @@ public class MainMenua {
                                 String[] mendia = reader.readLine().split(";");
                                 String probintzia = mendia[2];
 
-                                if(probintzia.toUpperCase().equals("BIZKAIA")){
+                                if (probintzia.toUpperCase().equals("BIZKAIA")) {
                                     writerBiz.write(mendia[0] + ";" + mendia[1] + "\n");
-                                }
-                                else if(probintzia.toUpperCase().equals("GIPUZKOA")){
+                                } else if (probintzia.toUpperCase().equals("GIPUZKOA")) {
                                     writerGip.write(mendia[0] + ";" + mendia[1] + "\n");
-                                }
-                                else if(probintzia.toUpperCase().equals("ARABA")){
+                                } else if (probintzia.toUpperCase().equals("ARABA")) {
                                     writerAra.write(mendia[0] + ";" + mendia[1] + "\n");
-                                }
-                                else if(probintzia.toUpperCase().equals("NAFARROA")){
+                                } else if (probintzia.toUpperCase().equals("NAFARROA")) {
                                     writerNaf.write(mendia[0] + ";" + mendia[1] + "\n");
                                 }
                             }
@@ -125,14 +119,12 @@ public class MainMenua {
                             writerNaf.close();
                             reader.close();
 
-                        }
-                        catch (FileNotFoundException e) {
+                        } catch (FileNotFoundException e) {
                             System.out.println("Errore bat egon da: " + e.getMessage());
                         } catch (IOException eio) {
                             System.out.println("Errore bat egon da: " + eio.getMessage());
                         }
-                    break;
-
+                        break;
 
                     case 4:
                         try {
@@ -148,18 +140,19 @@ public class MainMenua {
                             }
                             System.out.print("Aukeratu mendi bat: ");
                             int aukMen = in.nextInt();
-                            System.out.println(mendiak[aukMen][0] + " mendiaren altuera " + mendiak[aukMen][1] + " da.");
+                            System.out
+                                    .println(mendiak[aukMen][0] + " mendiaren altuera " + mendiak[aukMen][1] + " da.");
 
                         } catch (FileNotFoundException e) {
                             System.out.println("Errore bat egon da: " + e.getMessage());
                         } catch (IOException eio) {
                             System.out.println("Errore bat egon da: " + eio.getMessage());
                         }
-                    break;
+                        break;
                     case 5:
-                    System.out.println("Agur!!");
-                    c = 0;
-                    break;
+                        System.out.println("Agur!!");
+                        c = 0;
+                        break;
                 }
             } else {
                 System.out.println(
