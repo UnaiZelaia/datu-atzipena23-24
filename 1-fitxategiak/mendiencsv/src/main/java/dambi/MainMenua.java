@@ -24,7 +24,7 @@ public class MainMenua {
             System.out.println("1.- Mendien zerrenda ikusi (taula formatuan)");
             System.out.println("2.- Mendirik altuena bistaratu");
             System.out.println("3.- Mendiak esportatu (Araba.csv, Bizkaia.csv, Gipuzkoa.csv)");
-            System.out.println("4.- ...");
+            System.out.println("4.- Mendi baten altuera ikusi");
             System.out.println("5.- Irten");
             System.out.println("");
             System.out.print("Aukeratu zenbaki bat: ");
@@ -73,10 +73,6 @@ public class MainMenua {
                     case 3:
                         try{
                             BufferedReader reader = new BufferedReader(new FileReader("Mendiak.csv"));
-                            String[] bizkaia = new String[3];
-                            String[] gipuzkoa = new String[3];
-                            String[] araba = new String[3];
-                            String[] nafarroa = new String[3];
 
                             File bizkaiaCsv = new File("bizkaia.csv");
                             bizkaiaCsv.createNewFile();
@@ -127,6 +123,7 @@ public class MainMenua {
                             writerAra.close();
                             writerGip.close();
                             writerNaf.close();
+                            reader.close();
 
                         }
                         catch (FileNotFoundException e) {
@@ -134,6 +131,34 @@ public class MainMenua {
                         } catch (IOException eio) {
                             System.out.println("Errore bat egon da: " + eio.getMessage());
                         }
+                    break;
+
+
+                    case 4:
+                        try {
+                            String[][] mendiak = new String[50][];
+                            String[] mendia = new String[3];
+                            BufferedReader reader = new BufferedReader(new FileReader("Mendiak.csv"));
+                            int count = 1;
+                            while (reader.readLine() != null) {
+                                mendia = reader.readLine().split(";");
+                                mendiak[count] = mendia;
+                                System.out.printf("%3d | %s%n", count, mendia[0]);
+                                count++;
+                            }
+                            System.out.print("Aukeratu mendi bat: ");
+                            int aukMen = in.nextInt();
+                            System.out.println(mendiak[aukMen][0] + " mendiaren altuera " + mendiak[aukMen][1] + " da.");
+
+                        } catch (FileNotFoundException e) {
+                            System.out.println("Errore bat egon da: " + e.getMessage());
+                        } catch (IOException eio) {
+                            System.out.println("Errore bat egon da: " + eio.getMessage());
+                        }
+                    break;
+                    case 5:
+                    System.out.println("Agur!!");
+                    c = 0;
                     break;
                 }
             } else {
