@@ -1,8 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<Country importance="1">
-    <Country_Name>Spain</Country_Name>
-    <Country_Capital>Madrid</Country_Capital>
-    <Foundation/>
-    <Continent>Europe</Continent>
-    <Country_Population>45000000</Country_Population>
-</Country>
+<Countries>
+    <Country xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="country" importance="1">
+        <Country_Name>Portugal</Country_Name>
+        <Country_Capital>Lisboa</Country_Capital>
+        <Foundation/>
+        <Continent>Europe</Continent>
+        <Country_Population>10000000</Country_Population>
+    </Country>
+    <Country xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="country" importance="1">
+        <Country_Name>Spain</Country_Name>
+        <Country_Capital>Madrid</Country_Capital>
+        <Foundation/>
+        <Continent>Europe</Continent>
+        <Country_Population>45000000</Country_Population>
+    </Country>
+</Countries>
