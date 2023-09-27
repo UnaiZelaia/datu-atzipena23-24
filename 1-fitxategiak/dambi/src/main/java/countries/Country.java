@@ -6,6 +6,7 @@ import jakarta.xml.bind.annotation.XmlAttribute;
 import jakarta.xml.bind.annotation.XmlElement;
 import jakarta.xml.bind.annotation.XmlRootElement;
 import jakarta.xml.bind.annotation.XmlType;
+import jakarta.xml.bind.annotation.adapters.XmlJavaTypeAdapter;
 
 @XmlType(propOrder = { "name", "capital", "foundation", "continent", "population" })
 @XmlRootElement(name = "Country")
@@ -55,6 +56,7 @@ public class Country {
     }
 
     @XmlElement(name = "Foundation")
+    @XmlJavaTypeAdapter(DateAdapter.class)
     public void setFoundation(LocalDate foundation){
         this.foundation = foundation;
     }
@@ -69,6 +71,22 @@ public class Country {
     }
     public String getContinent(){
         return this.continent;
+    }
+
+
+
+    /*
+     * private int population;
+    private String name;
+    private String capital;
+    private int importance;
+    private LocalDate foundation;
+    private String continent;
+     */
+
+    public String toString(){
+        String message = "\nName: " + this.name + "\nCapital: " + this.capital + "\nImportance: " + this.importance + "\nFoundation: " + this.foundation + "\nContinent: " + this.continent;
+        return message;
     }
 
 

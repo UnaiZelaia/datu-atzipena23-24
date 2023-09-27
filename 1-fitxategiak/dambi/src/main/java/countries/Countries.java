@@ -1,6 +1,6 @@
 package countries;
 
-import java.util.List;
+import java.util.ArrayList;
 
 import jakarta.xml.bind.annotation.XmlElement;
 import jakarta.xml.bind.annotation.XmlRootElement;
@@ -10,19 +10,18 @@ import jakarta.xml.bind.annotation.XmlSeeAlso;
 @XmlSeeAlso({Country.class})
 public class Countries {
 
-    
-    List<Country> countries;
+    ArrayList<Country> countries;
 
     /**
      * element that is going to be marshaled in the xml
      */
 
-    public List getCountries(){
+    public ArrayList<Country> getCountries(){
         return countries;
-    } 
+    }
 
     @XmlElement(name = "Country")
-    public void setCountries(List countries) {
+    public void setCountries(ArrayList<Country> countries) {
         this.countries = countries;
     }
 }
