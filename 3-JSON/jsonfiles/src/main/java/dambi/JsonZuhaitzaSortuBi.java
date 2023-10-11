@@ -25,7 +25,7 @@ public class JsonZuhaitzaSortuBi {
                         .add("onClick", "CreateNewDoc()"))
                     .add(Json.createObjectBuilder()
                         .add("value", "Open")
-                        .add("onClick", "OPenDoc()"))
+                        .add("onClick", "OpenDoc()"))
                     .add(Json.createObjectBuilder()
                         .add("value", "Close")
                         .add("onClick", "CloseDoc()"))

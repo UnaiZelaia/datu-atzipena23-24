@@ -10,7 +10,7 @@
                 },
                 {
                     "value": "Open",
-                    "onClick": "OPenDoc()"
+                    "onClick": "OpenDoc()"
                 },
                 {
                     "value": "Close",
