@@ -14,8 +14,6 @@ public class Mendia {
     private int altuera;
     private String probintzia;
 
-    
-
     public Mendia(int id, String mendia, int altuera, String probintzia) {
         this.id = id;
         this.mendia = mendia;

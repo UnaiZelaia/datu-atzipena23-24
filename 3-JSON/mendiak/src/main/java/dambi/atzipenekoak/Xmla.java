@@ -34,7 +34,7 @@ public class Xmla {
             mendiak = (Mendiak) jaxbUnmar.unmarshal(fileIn);
 
         } catch(Exception e){
-            System.out.println("Error: " + e.getMessage());
+            e.printStackTrace();
         }
         return mendiak;
     }
@@ -53,7 +53,7 @@ public class Xmla {
             jaxbMarshaller.marshal(mendiak, os);
 
         } catch(Exception e){
-            System.out.println("Error: " + e.getMessage());
+            e.printStackTrace();
         }
         return mendiak.getMendiak().size();
     }

@@ -27,17 +27,18 @@ public class Csva {
     public Mendiak irakurri() {
         Mendiak mendiak = new Mendiak();
         List<Mendia> mendiakList = new ArrayList<>();
+        String line = "";
 
         try (BufferedReader inputStream = new BufferedReader(new FileReader(strFileIn))) {
-            while (inputStream.readLine() != null) {
-                String[] mendia = inputStream.readLine().split(";");
+            while ((line = inputStream.readLine()) != null) {
+                String[] mendia = line.split(";");
                 Mendia mendiaObj = new Mendia(Integer.parseInt(mendia[0]), mendia[1], Integer.parseInt(mendia[2]),
                         mendia[3]);
                 mendiakList.add(mendiaObj);
             }
             mendiak.setMendiak(mendiakList);
         } catch (Exception e) {
-            System.out.println("Error: " + e.getMessage());
+            e.printStackTrace();
         }
         return mendiak;
     }
@@ -64,7 +65,7 @@ public class Csva {
             fwMendiak.close();
             writerMendiak.close();
         } catch (Exception e) {
-            System.out.println("Error: " + e.getMessage());
+            e.printStackTrace();
         }
         return i;
     }
