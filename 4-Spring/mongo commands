@@ -1,0 +1,91 @@
+
+
+db.books.aggregate(
+    [
+        { "$addFields": { 
+            "Subjects": { "$split": [ "$Subjects", "," ] } 
+        }},
+        {$out:"books"}
+    ]
+)
+
+=========================================================================================================================================
+=========================================================================================================================================
+
+db.books.updateMany({}, {$set:{"Available": true}})
+
+=========================================================================================================================================
+=========================================================================================================================================
+
+db.books.find({ Subjects: { $exists: true, $not: { $type: "array" } } }).forEach(function(doc) {
+    if (typeof doc.Subjects === "string" && !doc.Subjects.includes(",")) {
+        db.books.updateOne(
+            { _id: doc._id },
+            { $set: { Subjects: [doc.Subjects] } }
+        );
+    } else if (doc.Subjects === null) {
+        db.books.updateOne(
+            { _id: doc._id },
+            { $set: { Subjects: [] } }
+        );
+    }
+});
+
+=========================================================================================================================================
+=========================================================================================================================================
+
+db.books.updateMany(
+    { ISBN: { $exists: false } }, // Filtro para documentos sin el campo ISBN
+    { $set: { ISBN: "" } }, // Agregar el campo ISBN con valor vacío para los documentos sin él
+    { upsert: true } // Añadir el campo si no existe en el documento
+);
+
+
+db.books.updateMany(
+    { Title: { $exists: false } }, // Filtro para documentos sin el campo ISBN
+    { $set: { Title: "" } }, // Agregar el campo ISBN con valor vacío para los documentos sin él
+    { upsert: true } // Añadir el campo si no existe en el documento
+);
+
+=========================================================================================================================================
+=========================================================================================================================================
+
+let counter = 1;
+db.books.find().forEach(function(doc) {
+    db.books.updateOne(
+        { _id: doc._id },
+        { $set: { BookId: counter } },
+        { upsert: true } // Agregar el campo si no existe
+    );
+    counter++;
+});
+
+let counter = 1; 
+db.meteorites.find().forEach(function(doc){ 
+    db.meteorites.updateOne(
+        {_id: doc._id}, 
+        {$set: {impactId: counter} }, 
+        {upsert: true}); counter++; });
+
+
+
+=========================================================================================================================================
+=========================================================================================================================================
+
+db.books.aggregate([
+  {
+    $addFields: {
+      yourNumericField: {
+        $toInt: {
+          $replaceAll: {
+            input: "$Num_Ratings,
+            find: ",",
+            replacement: ""
+          }
+        }
+      }
+    }
+  }
+])
+
+

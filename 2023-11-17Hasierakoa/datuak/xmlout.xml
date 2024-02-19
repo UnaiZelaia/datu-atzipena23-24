@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Notak>
+    <notak id="1">
+        <Data>2023-02-28</Data>
+        <Ikaslea>alberdi.jon</Ikaslea>
+        <Ikasgaia>program</Ikasgaia>
+        <Emaitza>10.0</Emaitza>
+    </notak>
+    <notak id="2">
+        <Data>2023-02-28</Data>
+        <Ikaslea>alonso.aimar</Ikaslea>
+        <Ikasgaia>program</Ikasgaia>
+        <Emaitza>7.0</Emaitza>
+    </notak>
+    <notak id="3">
+        <Data>2023-02-28</Data>
+        <Ikaslea>arruabarrena.aritz</Ikaslea>
+        <Ikasgaia>program</Ikasgaia>
+        <Emaitza>8.0</Emaitza>
+    </notak>
+    <notak id="4">
+        <Data>2023-02-28</Data>
+        <Ikaslea>caceres.alberto</Ikaslea>
+        <Ikasgaia>program</Ikasgaia>
+        <Emaitza>9.0</Emaitza>
+    </notak>
+    <notak id="5">
+        <Data>2023-02-28</Data>
+        <Ikaslea>calo.gerson</Ikaslea>
+        <Ikasgaia>program</Ikasgaia>
+        <Emaitza>10.0</Emaitza>
+    </notak>
+    <notak id="6">
+        <Data>2023-02-28</Data>
+        <Ikaslea>delatorre.aiert</Ikaslea>
+        <Ikasgaia>program</Ikasgaia>
+        <Emaitza>10.0</Emaitza>
+    </notak>
+    <notak id="7">
+        <Data>2023-02-28</Data>
+        <Ikaslea>ferrero.asier</Ikaslea>
+        <Ikasgaia>program</Ikasgaia>
+        <Emaitza>10.0</Emaitza>
+    </notak>
+    <notak id="8">
+        <Data>2023-02-28</Data>
+        <Ikaslea>galindo.julen</Ikaslea>
+        <Ikasgaia>program</Ikasgaia>
+        <Emaitza>9.0</Emaitza>
+    </notak>
+    <notak id="9">
+        <Data>2023-02-28</Data>
+        <Ikaslea>garcia.gorka</Ikaslea>
+        <Ikasgaia>program</Ikasgaia>
+        <Emaitza>8.0</Emaitza>
+    </notak>
+    <notak id="10">
+        <Data>2023-02-28</Data>
+        <Ikaslea>herrero.julen</Ikaslea>
+        <Ikasgaia>program</Ikasgaia>
+        <Emaitza>7.0</Emaitza>
+    </notak>
+    <notak id="11">
+        <Data>2023-02-28</Data>
+        <Ikaslea>maiora.arkaitz</Ikaslea>
+        <Ikasgaia>program</Ikasgaia>
+        <Emaitza>6.0</Emaitza>
+    </notak>
+    <notak id="12">
+        <Data>2023-02-28</Data>
+        <Ikaslea>martiartu.markel</Ikaslea>
+        <Ikasgaia>program</Ikasgaia>
+        <Emaitza>7.0</Emaitza>
+    </notak>
+    <notak id="13">
+        <Data>2023-02-28</Data>
+        <Ikaslea>nistal.iker</Ikaslea>
+        <Ikasgaia>program</Ikasgaia>
+        <Emaitza>8.0</Emaitza>
+    </notak>
+    <notak id="14">
+        <Data>2023-02-28</Data>
+        <Ikaslea>pelaez.julen</Ikaslea>
+        <Ikasgaia>program</Ikasgaia>
+        <Emaitza>9.0</Emaitza>
+    </notak>
+    <notak id="15">
+        <Data>2023-02-28</Data>
+        <Ikaslea>telleria.jon</Ikaslea>
+        <Ikasgaia>program</Ikasgaia>
+        <Emaitza>10.0</Emaitza>
+    </notak>
+    <notak id="16">
+        <Data>2023-02-28</Data>
+        <Ikaslea>zelaia.unai</Ikaslea>
+        <Ikasgaia>program</Ikasgaia>
+        <Emaitza>10.0</Emaitza>
+    </notak>
+    <notak id="17">
+        <Data>2023-06-05</Data>
+        <Ikaslea>alberdi.jon</Ikaslea>
+        <Ikasgaia>program</Ikasgaia>
+        <Emaitza>9.0</Emaitza>
+    </notak>
+    <notak id="18">
+        <Data>2023-06-05</Data>
+        <Ikaslea>alonso.aimar</Ikaslea>
+        <Ikasgaia>program</Ikasgaia>
+        <Emaitza>8.0</Emaitza>
+    </notak>
+    <notak id="19">
+        <Data>2023-06-05</Data>
+        <Ikaslea>arruabarrena.aritz</Ikaslea>
+        <Ikasgaia>program</Ikasgaia>
+        <Emaitza>7.0</Emaitza>
+    </notak>
+    <notak id="20">
+        <Data>2023-06-05</Data>
+        <Ikaslea>caceres.alberto</Ikaslea>
+        <Ikasgaia>program</Ikasgaia>
+        <Emaitza>6.0</Emaitza>
+    </notak>
+    <notak id="21">
+        <Data>2023-06-05</Data>
+        <Ikaslea>calo.gerson</Ikaslea>
+        <Ikasgaia>program</Ikasgaia>
+        <Emaitza>7.0</Emaitza>
+    </notak>
+    <notak id="22">
+        <Data>2023-06-05</Data>
+        <Ikaslea>delatorre.aiert</Ikaslea>
+        <Ikasgaia>program</Ikasgaia>
+        <Emaitza>8.0</Emaitza>
+    </notak>
+    <notak id="23">
+        <Data>2023-06-05</Data>
+        <Ikaslea>ferrero.asier</Ikaslea>
+        <Ikasgaia>program</Ikasgaia>
+        <Emaitza>9.0</Emaitza>
+    </notak>
+    <notak id="24">
+        <Data>2023-06-05</Data>
+        <Ikaslea>galindo.julen</Ikaslea>
+        <Ikasgaia>program</Ikasgaia>
+        <Emaitza>10.0</Emaitza>
+    </notak>
+    <notak id="25">
+        <Data>2023-06-05</Data>
+        <Ikaslea>garcia.gorka</Ikaslea>
+        <Ikasgaia>program</Ikasgaia>
+        <Emaitza>10.0</Emaitza>
+    </notak>
+    <notak id="26">
+        <Data>2023-06-05</Data>
+        <Ikaslea>herrero.julen</Ikaslea>
+        <Ikasgaia>program</Ikasgaia>
+        <Emaitza>10.0</Emaitza>
+    </notak>
+    <notak id="27">
+        <Data>2023-06-05</Data>
+        <Ikaslea>maiora.arkaitz</Ikaslea>
+        <Ikasgaia>interfaze</Ikasgaia>
+        <Emaitza>9.0</Emaitza>
+    </notak>
+    <notak id="28">
+        <Data>2023-06-05</Data>
+        <Ikaslea>martiartu.markel</Ikaslea>
+        <Ikasgaia>interfaze</Ikasgaia>
+        <Emaitza>8.0</Emaitza>
+    </notak>
+    <notak id="29">
+        <Data>2023-06-05</Data>
+        <Ikaslea>nistal.iker</Ikaslea>
+        <Ikasgaia>interfaze</Ikasgaia>
+        <Emaitza>7.0</Emaitza>
+    </notak>
+    <notak id="30">
+        <Data>2023-06-05</Data>
+        <Ikaslea>pelaez.julen</Ikaslea>
+        <Ikasgaia>interfaze</Ikasgaia>
+        <Emaitza>6.0</Emaitza>
+    </notak>
+    <notak id="31">
+        <Data>2023-06-05</Data>
+        <Ikaslea>telleria.jon</Ikaslea>
+        <Ikasgaia>interfaze</Ikasgaia>
+        <Emaitza>7.0</Emaitza>
+    </notak>
+    <notak id="32">
+        <Data>2023-06-05</Data>
+        <Ikaslea>zelaia.unai</Ikaslea>
+        <Ikasgaia>interfaze</Ikasgaia>
+        <Emaitza>8.0</Emaitza>
+    </notak>
+    <notak id="33">
+        <Data>2023-10-19</Data>
+        <Ikaslea>alberdi.jon</Ikaslea>
+        <Ikasgaia>multimedia</Ikasgaia>
+        <Emaitza>9.0</Emaitza>
+    </notak>
+    <notak id="34">
+        <Data>2023-10-19</Data>
+        <Ikaslea>alonso.aimar</Ikaslea>
+        <Ikasgaia>multimedia</Ikasgaia>
+        <Emaitza>10.0</Emaitza>
+    </notak>
+    <notak id="35">
+        <Data>2023-10-19</Data>
+        <Ikaslea>arruabarrena.aritz</Ikaslea>
+        <Ikasgaia>multimedia</Ikasgaia>
+        <Emaitza>10.0</Emaitza>
+    </notak>
+    <notak id="36">
+        <Data>2023-10-19</Data>
+        <Ikaslea>caceres.alberto</Ikaslea>
+        <Ikasgaia>multimedia</Ikasgaia>
+        <Emaitza>10.0</Emaitza>
+    </notak>
+    <notak id="37">
+        <Data>2023-10-19</Data>
+        <Ikaslea>calo.gerson</Ikaslea>
+        <Ikasgaia>multimedia</Ikasgaia>
+        <Emaitza>9.0</Emaitza>
+    </notak>
+    <notak id="38">
+        <Data>2023-10-19</Data>
+        <Ikaslea>delatorre.aiert</Ikaslea>
+        <Ikasgaia>multimedia</Ikasgaia>
+        <Emaitza>8.0</Emaitza>
+    </notak>
+    <notak id="39">
+        <Data>2023-10-19</Data>
+        <Ikaslea>ferrero.asier</Ikaslea>
+        <Ikasgaia>multimedia</Ikasgaia>
+        <Emaitza>7.0</Emaitza>
+    </notak>
+    <notak id="40">
+        <Data>2023-10-19</Data>
+        <Ikaslea>galindo.julen</Ikaslea>
+        <Ikasgaia>multimedia</Ikasgaia>
+        <Emaitza>6.0</Emaitza>
+    </notak>
+    <notak id="41">
+        <Data>2023-10-19</Data>
+        <Ikaslea>garcia.gorka</Ikaslea>
+        <Ikasgaia>multimedia</Ikasgaia>
+        <Emaitza>7.0</Emaitza>
+    </notak>
+    <notak id="42">
+        <Data>2023-10-19</Data>
+        <Ikaslea>herrero.julen</Ikaslea>
+        <Ikasgaia>multimedia</Ikasgaia>
+        <Emaitza>8.0</Emaitza>
+    </notak>
+    <notak id="43">
+        <Data>2023-10-19</Data>
+        <Ikaslea>maiora.arkaitz</Ikaslea>
+        <Ikasgaia>multimedia</Ikasgaia>
+        <Emaitza>9.0</Emaitza>
+    </notak>
+    <notak id="44">
+        <Data>2023-10-20</Data>
+        <Ikaslea>martiartu.markel</Ikaslea>
+        <Ikasgaia>da</Ikasgaia>
+        <Emaitza>10.0</Emaitza>
+    </notak>
+    <notak id="45">
+        <Data>2023-10-20</Data>
+        <Ikaslea>nistal.iker</Ikaslea>
+        <Ikasgaia>da</Ikasgaia>
+        <Emaitza>10.0</Emaitza>
+    </notak>
+    <notak id="46">
+        <Data>2023-10-20</Data>
+        <Ikaslea>pelaez.julen</Ikaslea>
+        <Ikasgaia>da</Ikasgaia>
+        <Emaitza>10.0</Emaitza>
+    </notak>
+    <notak id="47">
+        <Data>2023-10-20</Data>
+        <Ikaslea>telleria.jon</Ikaslea>
+        <Ikasgaia>da</Ikasgaia>
+        <Emaitza>9.0</Emaitza>
+    </notak>
+    <notak id="48">
+        <Data>2023-10-20</Data>
+        <Ikaslea>zelaia.unai</Ikaslea>
+        <Ikasgaia>da</Ikasgaia>
+        <Emaitza>8.0</Emaitza>
+    </notak>
+    <notak id="49">
+        <Data>2023-10-20</Data>
+        <Ikaslea>alberdi.jon</Ikaslea>
+        <Ikasgaia>da</Ikasgaia>
+        <Emaitza>7.0</Emaitza>
+    </notak>
+    <notak id="50">
+        <Data>2023-10-20</Data>
+        <Ikaslea>alonso.aimar</Ikaslea>
+        <Ikasgaia>da</Ikasgaia>
+        <Emaitza>6.0</Emaitza>
+    </notak>
+    <notak id="51">
+        <Data>2023-10-20</Data>
+        <Ikaslea>arruabarrena.aritz</Ikaslea>
+        <Ikasgaia>da</Ikasgaia>
+        <Emaitza>7.0</Emaitza>
+    </notak>
+    <notak id="52">
+        <Data>2023-10-20</Data>
+        <Ikaslea>caceres.alberto</Ikaslea>
+        <Ikasgaia>da</Ikasgaia>
+        <Emaitza>8.0</Emaitza>
+    </notak>
+    <notak id="53">
+        <Data>2023-10-20</Data>
+        <Ikaslea>calo.gerson</Ikaslea>
+        <Ikasgaia>da</Ikasgaia>
+        <Emaitza>9.0</Emaitza>
+    </notak>
+    <notak id="54">
+        <Data>2023-10-20</Data>
+        <Ikaslea>delatorre.aiert</Ikaslea>
+        <Ikasgaia>da</Ikasgaia>
+        <Emaitza>10.0</Emaitza>
+    </notak>
+    <notak id="55">
+        <Data>2023-10-20</Data>
+        <Ikaslea>ferrero.asier</Ikaslea>
+        <Ikasgaia>da</Ikasgaia>
+        <Emaitza>10.0</Emaitza>
+    </notak>
+    <notak id="56">
+        <Data>2023-10-20</Data>
+        <Ikaslea>galindo.julen</Ikaslea>
+        <Ikasgaia>da</Ikasgaia>
+        <Emaitza>10.0</Emaitza>
+    </notak>
+    <notak id="57">
+        <Data>2023-10-20</Data>
+        <Ikaslea>garcia.gorka</Ikaslea>
+        <Ikasgaia>da</Ikasgaia>
+        <Emaitza>9.0</Emaitza>
+    </notak>
+    <notak id="58">
+        <Data>2023-10-20</Data>
+        <Ikaslea>herrero.julen</Ikaslea>
+        <Ikasgaia>da</Ikasgaia>
+        <Emaitza>8.0</Emaitza>
+    </notak>
+    <notak id="59">
+        <Data>2023-10-20</Data>
+        <Ikaslea>maiora.arkaitz</Ikaslea>
+        <Ikasgaia>da</Ikasgaia>
+        <Emaitza>7.0</Emaitza>
+    </notak>
+    <notak id="60">
+        <Data>2023-10-20</Data>
+        <Ikaslea>martiartu.markel</Ikaslea>
+        <Ikasgaia>da</Ikasgaia>
+        <Emaitza>6.5</Emaitza>
+    </notak>
+    <notak id="61">
+        <Data>2023-10-20</Data>
+        <Ikaslea>nistal.iker</Ikaslea>
+        <Ikasgaia>da</Ikasgaia>
+        <Emaitza>7.6</Emaitza>
+    </notak>
+    <notak id="62">
+        <Data>2023-10-20</Data>
+        <Ikaslea>pelaez.julen</Ikaslea>
+        <Ikasgaia>da</Ikasgaia>
+        <Emaitza>9.0</Emaitza>
+    </notak>
+    <notak id="63">
+        <Data>2023-10-20</Data>
+        <Ikaslea>telleria.jon</Ikaslea>
+        <Ikasgaia>da</Ikasgaia>
+        <Emaitza>8.5</Emaitza>
+    </notak>
+    <notak id="64">
+        <Data>2023-10-20</Data>
+        <Ikaslea>zelaia.unai</Ikaslea>
+        <Ikasgaia>da</Ikasgaia>
+        <Emaitza>10.0</Emaitza>
+    </notak>
+</Notak>
