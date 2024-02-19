@@ -25,7 +25,7 @@ Datasets are, as the name implies, sets of preloaded data. We will use one of th
 
 Once we have our databse ready, we will create our REST API. We will be using (Spring)[https://spring.io/] to build this REST API, one of the most popular ways to build this kinds of services. We will also be using (Maven)[https://maven.apache.org/] as our dependency and project manager. We will create a new Maven project and select import all necesary dependencies to our project. Once we have that we will start creating our application. We won't be going through the development of a REST API in this project, but there are plenty of resources out there for you to build a capable REST API. The class diagram for my particular Spring application looks like this:
 
-<a href="https://github.com/UnaiZelaia/datu-atzipena23-24/blob/features/mongoMeteorites/images/class_diagram.svg" target="_blank"><img src="https://github.com/UnaiZelaia/datu-atzipena23-24/blob/features/mongoMeteorites/images/class_diagram.svg" width="60%" height="60%"/></a>
+<a href="https://github.com/UnaiZelaia/datu-atzipena23-24/blob/features/mongoMeteorites/images/class_diagram.svg" target="_blank"><img src="https://github.com/UnaiZelaia/datu-atzipena23-24/blob/features/mongoMeteorites/images/class_diagram.svg"/></a>
 
 ####Endpoint table
 
@@ -60,6 +60,6 @@ In our project, we will have several endpoints to interact with our data. In his
 
 With all these endpoint you have a pretty bid control over the data and you will be able to do CRUD operation on it while sending HTTP requests. I have developed this using Swagger, an automatic, OpenAPI v3
 compliant documentation generator and endpoint teste (pretty neat tool) and we can see and try all our endpoints there.  
-<a href="https://github.com/UnaiZelaia/datu-atzipena23-24/blob/features/mongoMeteorites/images/swagger_mongo.png" target="_blank"><img src="https://github.com/UnaiZelaia/datu-atzipena23-24/blob/features/mongoMeteorites/images/swagger_mongo.png" width="60%" height="60%"/></a>
+<a href="https://github.com/UnaiZelaia/datu-atzipena23-24/blob/features/mongoMeteorites/images/swagger_mongo.png" target="_blank"><img src="https://github.com/UnaiZelaia/datu-atzipena23-24/blob/features/mongoMeteorites/images/swagger_mongo.png"/></a>
 
 
